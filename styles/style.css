@@ -9,8 +9,6 @@ body {
     font-size: 24px;
     line-height: 38px;
     letter-spacing: 0.2px;
-    font-weight: 500;
-
 }
 
 li {
@@ -119,13 +117,13 @@ header .wrapper nav ul li:first-of-type a {
     margin: auto;
 }
 
-.app__section .container>img:first-of-type {
+.app__section .container .orange-phone {
     position: absolute;
     top: -285px;
     left: 0;
 }
 
-.app__section .container>img+img {
+.app__section .container .white-phone {
     margin: -46px 0 130px 265px;
 }
 
@@ -156,10 +154,11 @@ header .wrapper nav ul li:first-of-type a {
     font-size: 40px;
     line-height: 57px;
     margin-bottom: 27px;
+    color: #252B42;
 }
 
 .app__section figure figcaption h3 {
-    font-weight: 700;
+    font-weight: 600;
     line-height: 36px;
     letter-spacing: 0.1px;
     color: #FA4A0C;
@@ -168,7 +167,9 @@ header .wrapper nav ul li:first-of-type a {
 
 .app__section figure figcaption h4 {
     color: #737373;
+    font-weight: 400;
 }
+
 
 .app__section figure:nth-of-type(2) {
     flex-direction: row-reverse;
