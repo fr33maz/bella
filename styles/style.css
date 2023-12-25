@@ -9,7 +9,6 @@ body {
     font-size: 24px;
     line-height: 38px;
     letter-spacing: 0.2px;
-
 }
 
 li {
@@ -166,7 +165,7 @@ header .wrapper nav ul li:first-of-type a {
     margin-bottom: 17px;
 }
 
-.app__section figure figcaption h4{
+.app__section figure figcaption h4 {
     color: #737373;
     font-weight: 400;
 }
