@@ -1,0 +1,241 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    font-weight: 500;
+
+}
+
+li {
+    list-style: none;
+}
+
+.wrapper {
+    max-width: 1163px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    z-index: 10;
+    position: relative;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 27px 0;
+}
+
+header .wrapper {
+    max-width: 1330px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+header .wrapper nav ul {
+    display: flex;
+    gap: 94px;
+}
+
+header .wrapper nav ul li {
+    font-size: 16px;
+    font-weight: 600;
+    color: #252B42;
+}
+
+header .wrapper nav ul li:first-of-type a {
+    color: #FA4A0C;
+}
+
+.main__section {
+    text-align: center;
+    background-image: url("../assets/img/main-section-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 73px 0 162px;
+}
+
+.main__section h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 80px;
+    color: #fff;
+    margin-bottom: 27px;
+    max-width: 937px;
+    margin: auto;
+}
+
+.main__section h3 {
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    font-size: 24px;
+    color: #f6f6f6;
+    font-weight: 700;
+    margin-bottom: 17px;
+}
+
+.main__section h4 {
+    color: #f6f6f6;
+    margin-bottom: 70px;
+}
+
+.main__section a {
+    letter-spacing: 0.1px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #fff;
+    margin-left: 74px;
+    padding: 16px 58px;
+    background: #FA4A0C;
+    border-radius: 30px;
+    box-shadow: 0px 10px 30px 0px rgba(183, 50, 39, 0.20);
+}
+
+.main__section a+a {
+    margin-left: 34px;
+    border: 1px solid #FFF;
+    background: transparent;
+}
+
+.app__section {
+    text-align: center;
+}
+
+.app__section .container {
+    max-width: 745px;
+    position: relative;
+    margin: auto;
+}
+
+.app__section .container>img:first-of-type {
+    position: absolute;
+    top: -285px;
+    left: 0;
+}
+
+.app__section .container>img+img {
+    margin: -46px 0 130px 265px;
+}
+
+
+.app__section>h2 {
+    margin: auto;
+    font-weight: 600;
+    line-height: 36px;
+    font-size: 44px;
+    font-family: 'Poppins', sans-serif;
+    border-top: #E4E4E4 3px solid;
+    max-width: 884px;
+    padding-top: 72px;
+}
+
+.app__section figure {
+    display: flex;
+}
+
+.app__section figure figcaption {
+    align-self: center;
+    max-width: 561px;
+    text-align: left;
+}
+
+.app__section figure figcaption h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    margin-bottom: 27px;
+}
+
+.app__section figure figcaption h3 {
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #FA4A0C;
+    margin-bottom: 17px;
+}
+
+.app__section figure figcaption h4 {
+    color: #737373;
+}
+
+.app__section figure:nth-of-type(2) {
+    flex-direction: row-reverse;
+}
+
+.download__section {
+    padding: 145px 0 150px;
+    margin: auto;
+    text-align: center;
+    background-image: url("../assets/img/download-section-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.download__section h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.download__section h4 {
+    color: #FFF;
+    margin-bottom: 78px;
+}
+
+.download__section a {
+    padding: 18px 31px;
+    border-radius: 10px;
+    background: #FA4A0C;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+.download__section a+a {
+    border: 1px solid #fff;
+    background: transparent;
+    padding: 16px 45px;
+    margin-left: 5px;
+}
+
+footer .wrapper {
+    max-width: 1210px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+
+footer ul {
+    display: flex;
+    gap: 24px
+}
+
+footer {
+    padding: 53px 0 68px;
+}
+
+footer p {
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #5C5C5C;
+}
